@@ -21,7 +21,7 @@ public class BasicMyService implements MyService {
     }
 
     @Override
-    public <T> List<T> processList(List<T> input) {
+    public <T> List<T> getUnmodifying(List<T> input) {
         return Collections.unmodifiableList(input);
     }
 

@@ -9,7 +9,7 @@ import java.util.List;
 public interface MyService {
     List<BigInteger> factorials(Integer n);
 
-    <T> List<T> processList(List<T> input);
+    <T> List<T> getUnmodifying(List<T> input);
 
     List<BigInteger> linkedFactorials(Integer n);
 }
