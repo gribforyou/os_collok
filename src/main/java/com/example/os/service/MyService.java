@@ -5,7 +5,6 @@ import org.springframework.stereotype.Service;
 import java.math.BigInteger;
 import java.util.List;
 
-@Service
 public interface MyService {
     List<BigInteger> factorials(Integer n);
 
